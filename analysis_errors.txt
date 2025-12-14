@@ -1,0 +1,282 @@
+﻿Analyzing smart_home_project...                                 
+
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:33:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:56:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:67:38 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:69:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:89:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:98:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\login.dart:109:30 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\auth\login.dart:112:9 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\login.dart:131:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\login.dart:143:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\login.dart:189:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\login.dart:216:53 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\auth\sign_up.dart:36:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\sign_up.dart:45:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\sign_up.dart:60:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\auth\sign_up.dart:64:30 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\sign_up.dart:82:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\sign_up.dart:93:65 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\sign_up.dart:140:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\sign_up.dart:164:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\sign_up.dart:192:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\start_page.dart:23:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\auth\start_page.dart:75:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:88:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:91:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:118:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:132:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:133:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:135:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:136:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:142:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:143:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:159:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:198:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:250:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:251:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:255:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:260:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:265:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:279:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:287:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:293:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:302:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:324:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:325:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:329:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:342:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:391:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:392:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\camera\camera_page.dart:397:33 - deprecated_member_use
+warning - Unused import: 'dart:convert' - lib\pages\face_recognition\add_person_page.dart:2:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:50:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:58:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:67:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:71:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:77:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:80:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:146:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:149:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:152:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:162:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:183:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:188:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:201:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:207:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:209:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:210:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:211:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:278:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:281:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:282:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:309:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:313:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:315:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:317:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:320:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:338:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:342:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:344:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:346:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:349:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:373:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:381:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:387:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:391:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:395:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:408:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:409:7 - avoid_print
+   info - Use interpolation to compose strings and values - lib\pages\face_recognition\add_person_page.dart:428:26 - prefer_interpolation_to_compose_strings
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:454:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:482:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:483:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\add_person_page.dart:484:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\add_person_page.dart:604:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\add_person_page.dart:685:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\add_person_page.dart:754:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\add_person_page.dart:775:72 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\face_data_explorer_page.dart:66:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:203:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:216:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:217:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:264:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:285:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:302:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:318:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:331:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:402:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:405:68 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:467:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:470:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:552:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:585:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:586:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:591:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:596:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:614:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:637:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:658:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:659:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:664:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:687:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:724:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:736:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:765:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:766:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:773:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\face_data_explorer_page.dart:789:35 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:102:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:105:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:189:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:242:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:256:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\face_recognition\recognize_person_page.dart:268:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:316:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:319:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:346:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:360:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:361:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:363:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:364:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:370:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:371:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:387:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:419:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:420:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:425:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:464:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:483:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:520:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:546:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:547:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:550:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:551:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:557:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:558:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:564:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:565:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:586:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:587:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:620:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:653:79 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:696:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\face_recognition\recognize_person_page.dart:731:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:120:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:121:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:126:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:135:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:143:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:155:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:192:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:193:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:198:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:226:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:261:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:262:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:264:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:265:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:271:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:272:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:290:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:291:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:331:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:332:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:336:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:341:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:346:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:362:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:368:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:378:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:415:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:416:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:421:51 - deprecated_member_use
+warning - The declaration '_featureCard' isn't referenced - lib\pages\home\home_page.dart:492:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:506:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:507:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:512:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:517:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:522:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:548:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:577:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:578:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:583:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:622:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:623:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:628:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:633:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:638:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:659:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:690:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:751:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:762:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:763:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:768:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:782:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:898:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:899:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:904:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:909:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:914:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:942:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:963:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:990:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\home\home_page.dart:1008:76 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:53:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:69:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:71:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:72:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:94:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:97:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:110:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:113:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:149:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:172:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:188:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:194:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:298:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:299:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:304:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:310:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:324:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\rooms\room_detail_page.dart:351:41 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:99:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:103:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:159:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:163:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:185:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:189:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:212:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\profile\profile_page.dart:216:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\services\face_recognition_api.dart:30:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\face_recognition_api.dart:46:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\face_recognition_api.dart:49:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\face_recognition_api.dart:54:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\face_recognition_api.dart:71:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\face_recognition_api.dart:85:7 - avoid_print
+
+flutter : 257 issues 
+found. (ran in 1.5s)
+Au caractère Ligne:1 
+: 1
++ flutter analyze 
+2>&1 | Out-File 
+-FilePath 
+analysis_errors.txt 
+-Encodi ...
++ 
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (257 iss   
+ ues found. (ran     
+in 1.5s):String)     
+[], RemoteExcep    
+tion
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 

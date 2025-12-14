@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "77968357420",
+    "project_id": "smarthome-dbadb",
+    "storage_bucket": "smarthome-dbadb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77968357420:android:18778c030dbb560e0d7989",
+        "android_client_info": {
+          "package_name": "com.example.smart_home_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77968357420-oc92sdaidnfk9ft34hu66qr4beq7030n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smart_home_project",
+            "certificate_hash": "c4f976a9f7803b34e7ca8503809d5e444a673cf6"
+          }
+        },
+        {
+          "client_id": "77968357420-7qqc85j0m9k7tj1puv80kr3hpj4nfi9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgCzGYIRlmBQGABsC24yhZxkXVbKNzMZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77968357420-7qqc85j0m9k7tj1puv80kr3hpj4nfi9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
