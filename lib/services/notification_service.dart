@@ -141,6 +141,39 @@ class NotificationService {
     }
   }
 
+  /// Show a local notification manually
+  Future<void> showLocalNotification({
+    required String title,
+    required String body,
+    required String type,
+    String? payload,
+  }) async {
+    await _localNotifications.show(
+      DateTime.now().millisecondsSinceEpoch ~/ 1000,
+      title,
+      body,
+      NotificationDetails(
+        android: AndroidNotificationDetails(
+          'high_importance_channel',
+          'Smart Home Alerts',
+          channelDescription: 'Notifications for security alerts',
+          importance: Importance.high,
+          priority: Priority.high,
+          icon: '@mipmap/ic_launcher',
+          color: const Color(0xFFFF9800),
+          playSound: true,
+          enableVibration: true,
+        ),
+        iOS: const DarwinNotificationDetails(
+          presentAlert: true,
+          presentBadge: true,
+          presentSound: true,
+        ),
+      ),
+      payload: payload,
+    );
+  }
+
   /// Handle foreground messages (app is open)
   Future<void> _handleForegroundMessage(RemoteMessage message) async {
     print('📨 Foreground message received: ${message.messageId}');

@@ -8,6 +8,7 @@ import '../../utils/app_colors.dart';
 import '../camera/camera_page.dart';
 import '../face_recognition/add_person_page.dart';
 import '../rooms/room_detail_page.dart';
+import '../../services/notification_service.dart'; // ⭐ NEW: Import NotificationService
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -64,10 +65,11 @@ class _HomePageState extends State<HomePage> {
         final data = event.snapshot.value as Map<dynamic, dynamic>;
         final timestamp = data['timestamp'] as int? ?? 0;
         final now = DateTime.now().millisecondsSinceEpoch;
+        final key = event.snapshot.key; // Get the key
         
         // Show alert only if it's recent (< 10 seconds ago)
         if (now - timestamp < 10000) { 
-           _showSecurityAlert(data, 'unknown_face');
+           _showSecurityAlert(data, 'unknown_face', key, 'alerts');
         }
       }
     });
@@ -81,16 +83,17 @@ class _HomePageState extends State<HomePage> {
         final timestamp = data['timestamp'] as int? ?? 0;
         final now = DateTime.now().millisecondsSinceEpoch;
         final type = data['type'] as String? ?? 'unknown';
+        final key = event.snapshot.key; // Get the key
         
         // Show alert only if it's recent (< 10 seconds ago)
         if (now - timestamp < 10000) { 
-           _showSecurityAlert(data, type);
+           _showSecurityAlert(data, type, key, 'smart_home/notifications');
         }
       }
     });
   }
 
-  void _showSecurityAlert(Map<dynamic, dynamic> data, String type) {
+  void _showSecurityAlert(Map<dynamic, dynamic> data, String type, [String? key, String? dbPath]) {
     // Determine icon and title based on type
     IconData alertIcon;
     String alertTitle;
@@ -109,6 +112,14 @@ class _HomePageState extends State<HomePage> {
       alertMessage = "Unknown Person Detected!";
       backgroundColor = Colors.red[900]!;
     }
+
+    // Trigger local notification in system tray immediately
+    NotificationService().showLocalNotification(
+      title: alertTitle,
+      body: alertMessage,
+      type: type,
+      payload: type,
+    );
 
     showDialog(
       context: context,
@@ -150,7 +161,17 @@ class _HomePageState extends State<HomePage> {
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context),
+            onPressed: () {
+              // ⭐ Delete from Firebase when dismissed
+              if (key != null && dbPath != null) {
+                FirebaseDatabase.instance.ref(dbPath).child(key).remove().then((_) {
+                  print("Deleted notification $key from $dbPath");
+                }).catchError((error) {
+                  print("Failed to delete notification: $error");
+                });
+              }
+              Navigator.pop(context);
+            },
             child: const Text("DISMISS", style: TextStyle(color: Colors.white)),
           ),
         ],
